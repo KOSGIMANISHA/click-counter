@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f5f8;
+  min-height: 100vh;
+}
+.heading {
+  color: #2d3a35;
+  font-family: 'roboto';
+}
+@media (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.descripition {
+  color: #2d3a35;
+  font-size: 13px;
+  font-family: 'roboto';
+}
+@media (min-width: 768px) {
+  .descripition {
+    font-size: 20px;
+  }
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  height: 28px;
+  width: 90px;
+  font-family: 'roboto';
+  font-size: 11px;
+  border-radius: 5px;
+  border-width: 0;
+  cursor: pointer;
+  outline: none;
+}
+.count {
+  color: #c20a72;
+  font-weight: 900;
+}
